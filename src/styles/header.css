@@ -1,0 +1,152 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.separator {
+    margin: 0 1rem;
+    width: 1px;
+    height: 4rem;
+
+    border-right: solid 1px var(--gray);
+    display: block;
+}
+
+.logo img {
+    width: 4rem;
+    height: 4rem;
+
+    margin-right: 1px solid #000000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+}
+
+li:hover {
+    background-color: var(--secondary-color);
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icons>* {
+    cursor: pointer;
+
+    width: 35px;
+    height: 35px;
+
+    padding: .4rem;
+}
+
+.icons>*:hover {
+    background-color: var(--secondary-color);
+
+    border-radius: var(--border-radius);
+}
+
+.login-btn {
+    margin-left: 2rem;
+    padding: .5rem 1rem;
+
+    border-radius: var(--border-radius);
+
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    color: var(--primary-color);
+}
+
+.login-btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80%;
+}
+
+.search {
+    border: none;
+
+    padding: .5rem 1rem;
+
+    outline: 0;
+
+    font-size: var(--font-size-small);
+
+    background-color: var(--quaternary-color);
+}
+
+.search-box {
+    background-color: var(--quaternary-color);
+
+    overflow: hidden;
+
+    border-radius: var(--border-radius-small);
+
+    display: flex;
+    align-items: center;
+}
+
+.contains-menu-title {
+    display: flex;
+    gap: 1rem;
+}
+
+.contains-menu-title h1 {
+    margin-bottom: .5rem;
+
+    font-weight: 500;
+}
+
+.menu-mobile {
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 2rem;
+    height: 1.5rem;
+
+    cursor: pointer;
+}
+
+.menu-mobile span {
+    display: block;
+
+    height: .2rem;
+    width: 1.2rem;
+    margin: 5px 0;
+
+    background-color: var(--primary-color);
+    border-radius: 0.125rem;
+}

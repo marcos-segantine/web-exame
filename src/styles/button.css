@@ -1,0 +1,25 @@
+button {
+    border: none;
+    border-radius: var(--border-radius);
+    
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+
+    font-size: var(--font-size-small);
+
+    cursor: pointer;
+}
+
+.no-back-color {
+    background-color: transparent;
+
+    color: var(--primary-color);
+    font-weight: bold;
+
+    padding: .5rem 1rem;
+}
+
+.no-back-color:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}

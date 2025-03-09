@@ -1,0 +1,13 @@
+.indicators-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+
+    padding: 5rem 0;
+}
+
+.chart-content {
+    width: 600px;
+    height: auto;
+}

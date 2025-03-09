@@ -6,6 +6,7 @@ import { Header } from "./shared/Header";
 import { Footer } from "./shared/Footer";
 
 import { Home } from "./pages/Home";
+import { Indicators } from "./pages/Indicators";
 
 export const App = () => {
     return (
@@ -13,6 +14,7 @@ export const App = () => {
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/indicators" element={<Indicators />} />
             </Routes>
             <Footer />
         </BrowserRouter>

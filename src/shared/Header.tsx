@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Menu } from "../components/Menu";
 
 import "../styles/header.css";
 
@@ -45,11 +45,7 @@ export const Header = () => {
             </div>
             <div className="header-bottom">
                 <div className="contains-menu-title">
-                    <div className="menu-mobile">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
+                    <Menu />
 
                     <div className="header-title">
                         <h1>Bem vindo ao Observatório IFTM</h1>

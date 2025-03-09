@@ -40,6 +40,6 @@ export const exampleAPI = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(exampleData);
-        }, 1000);
+        }, 5);
     });
 }

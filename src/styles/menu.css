@@ -1,0 +1,162 @@
+.menu {
+    width: min-content;
+    height: min-content;
+}
+
+.menu .top {
+    width: 60%;
+    height: 100%;
+}
+
+.menu .top img {
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu-mobile {
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 2rem;
+    height: 1.5rem;
+
+    cursor: pointer;
+}
+
+.menu-mobile span {
+    display: block;
+
+    height: .2rem;
+    width: 1.2rem;
+    margin: 5px 0;
+
+    background-color: var(--primary-color);
+    border-radius: 0.125rem;
+}
+
+.menu-open {
+    height: 100vh;
+    width: 20vw;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 1rem;
+}
+
+.menu-header img {
+    width: 80px;
+    max-height: 80px;
+}
+
+.menu-content {
+    flex: 1;
+    width: 100%;
+}
+
+.menu-item {
+    border-top: solid 1px #00000060;
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu-item p {
+    color: var(--primary-color);
+    font-size: var(--font-size);
+}
+
+.menu-item:hover {
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.menu-item-grouped {
+    padding: 0 5%;
+
+    border-top: solid 1px #00000060;
+}
+
+.menu-item-grouped div:hover {
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.menu-item-grouped div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    margin: 1rem 0;
+}
+
+.menu-item-social {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    padding: 1rem;
+
+    border-top: solid 1px #00000060;
+}
+
+.menu-item-social h4 {
+    width: 100%;
+}
+
+.menu-item-social svg {
+    width: 45px;
+    height: 45px;
+    padding: .5rem;
+
+    cursor: pointer;
+}
+
+.menu-item-social svg:hover {
+    background-color: var(--secondary-color);
+
+    border-radius: var(--border-radius);
+}
+
+.menu-item-footer {
+    padding: 1rem;
+
+    border-top: solid 1px #00000060;
+}
+
+.menu-item-footer p {
+    text-align: center;
+}

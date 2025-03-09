@@ -129,24 +129,3 @@ li:hover {
 
     font-weight: 500;
 }
-
-.menu-mobile {
-    flex-direction: column;
-    justify-content: space-between;
-
-    width: 2rem;
-    height: 1.5rem;
-
-    cursor: pointer;
-}
-
-.menu-mobile span {
-    display: block;
-
-    height: .2rem;
-    width: 1.2rem;
-    margin: 5px 0;
-
-    background-color: var(--primary-color);
-    border-radius: 0.125rem;
-}
